@@ -1,0 +1,17 @@
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-container input {
+  width: 100%;
+  padding-right: 40px; /* Adjust padding to make space for the icon */
+}
+
+.input-container .icon {
+  position: absolute;
+  right: 10px; /* Adjust based on your design */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
