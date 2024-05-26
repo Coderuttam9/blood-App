@@ -305,7 +305,6 @@ export const changePassword = asyncHandler(async (req, res) => {
 
 export const profilePhotoUpdate = asyncHandler(async (req, res) => {
 
-  console.log(req.file);
   try {
 
     const profileData = await fileUploadToCloud(req.file.path);
